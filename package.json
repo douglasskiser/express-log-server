@@ -1,0 +1,15 @@
+{
+  "name": "express-log-server",
+  "version": "1.0.0",
+  "description": "An express log server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Douglass Kiser",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
