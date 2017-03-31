@@ -1,10 +1,9 @@
-const logIt = require('./logger');
+const logIt = require('../logger');
 
 module.exports = app => {
   app.get('*', (req, res) => {
-    return res.send(200, 'You have reached the NGVA log server');
+    return res.sendStatus(200);
   });
-  
 
   app.post('/log', (req, res) => {
       const payload = req.body;

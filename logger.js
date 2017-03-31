@@ -1,4 +1,4 @@
-const SplunkLogger = require('splunk-logging').Logger;
+// const SplunkLogger = require('splunk-logging').Logger;
 
 // const Logger = SplunkLogger({
 //   token: '',

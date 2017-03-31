@@ -1,10 +1,5 @@
-const express = require('express');
+const server = require('./app');
 const config = require('./config');
-
-const app = express();
-
-require('./routes')(app);
-require('./middle-wares')(app);
 
 app.listen(config.PORT, '0.0.0.0', err => {
   return err ?
