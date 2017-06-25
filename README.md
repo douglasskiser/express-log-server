@@ -1,5 +1,7 @@
 # express-log-server
 
+![https://travis-ci.org/douglasskiser/express-log-server.svg?branch=master](https://travis-ci.org/douglasskiser/express-log-server.svg?branch=master)
+
 An express log server to use with Splunk logging.
 
 ### What is this repository for? ###
