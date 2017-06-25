@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test | tap-spec",
-    "start": "yarn start"
+    "start": "node index"
   },
   "author": "Douglass Kiser",
   "license": "ISC",
