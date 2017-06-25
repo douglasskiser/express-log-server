@@ -4,7 +4,8 @@
   "description": "An express log server",
   "main": "index.js",
   "scripts": {
-    "test": "node test | tap-spec"
+    "test": "node test | tap-spec",
+    "start": "yarn start"
   },
   "author": "Douglass Kiser",
   "license": "ISC",
